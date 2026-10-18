@@ -1,5 +1,14 @@
 # Real-Time Lane Perception and Collision Avoidance for Autonomous Vehicles
 
+> [!CAUTION]
+> ### ⚠️ PROPRIETARY NOTICE & STRICT COPYRIGHT (ALL RIGHTS RESERVED)
+> **Copyright © 2026 KARTHIK K S. All Rights Reserved.**  
+> **Strictly NO copying, cloning, redistribution, modification, or reuse** of this code, algorithms, or architectures is permitted for academic submissions, projects, or commercial use without prior express written permission from the author.  
+> *This repository is made publicly viewable strictly for portfolio verification and demonstration purposes only.*  
+> For permission requests, contact: **karthikkornengattil@gmail.com**
+
+---
+
 A lightweight, multi-task deep learning perception and control system designed for autonomous vehicles operating under real-time embedded constraints.
 
 ---
@@ -58,15 +67,16 @@ This repository implements a concurrent tripartite vision perception and control
 
 ```
 .
+├── LICENSE                                   # Strict All-Rights-Reserved proprietary license
+├── README.md                                 # Project documentation & copyright notice
+├── requirements.txt                          # Python package dependencies
 ├── complete_autonomous_system.py             # Master multi-threaded pipeline combining all 3 modules
 ├── lane_detection_lstm_balanced_20260621.py  # Lightweight U-Net + BiLSTM temporal lane model
 ├── lane_detection.py                         # Spatial lane detection baseline
 ├── lane_detection_lstm.py                    # Standard LSTM temporal lane model
 ├── lane_steering_combined.py                 # Integrated lane perception + steering regression
 ├── kitti_cnn_final.py                        # 6-class KITTI obstacle detection model
-├── steering_prediction.py                    # NVIDIA end-to-end steering angle regressor
-├── requirements.txt                          # Python package dependencies
-└── README.md                                 # Project documentation
+└── steering_prediction.py                    # NVIDIA end-to-end steering angle regressor
 ```
 
 ---
@@ -122,7 +132,9 @@ The system employs a defense-in-depth architecture:
 
 ---
 
-## 👤 Author
-* **Karthik K S** ([karthikks2004](https://github.com/karthikks2004))
-* Department of Electronics and Communication Engineering  
-* Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India
+## ⚖️ Legal & Copyright
+This repository and its codebase are strictly protected under international copyright law. Unauthorized copying, distribution, or submission of this project without explicit written authorization is strictly prohibited. See the [LICENSE](LICENSE) file for complete legal terms.
+
+* **Author:** KARTHIK K S  
+* **Affiliation:** Department of Electronics and Communication Engineering, Amrita School of Engineering, Coimbatore, India  
+* **Contact:** `karthikkornengattil@gmail.com`
