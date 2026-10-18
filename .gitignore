@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Media and Video files
+*.wmv
+*.mp4
+*.avi
+*.mkv
+
+# Research Papers, Documents, and Presentations (Excluded as requested)
+Text files/
+*.pdf
+*.docx
+*.tex
+*.pptx
+*.txt
+!requirements.txt
+*.png
+*.jpg
+*.jpeg
+
+# Assignment and Paper Generator Scripts
+generate_ieee_manuscript.py
+generate_v1_docs.py
+populate_skeleton.py
+compress_for_overleaf.py
+recover_results.py
+generate_missing_plots.py
+
+# System & IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
